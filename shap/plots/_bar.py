@@ -316,8 +316,7 @@ def bar(shap_values, max_display=10, order=Explanation.abs, clustering=None, clu
     if show:
         pl.show()
     else:
-        pl
-
+        return pl
 
 
 # def compute_sort_counts(partition_tree, leaf_values, pos=None):
